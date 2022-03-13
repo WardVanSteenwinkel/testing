@@ -2,9 +2,10 @@
 Resource  ../pageObjects/basePage.robot
 
 *** Variables ***
-${login_button}=  css:[input[value='Login']]
+${login_button}=  css:[name="login"]
 ${password_field}=  id:password
-${error}=  css:[div[id='body'] li:nth-child(1)]
+${username}=  id:username
+
 
 *** Keywords ***
 Click login
